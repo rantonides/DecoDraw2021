@@ -1,0 +1,157 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>DecoDrawCore</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="media\**" />
+    <EmbeddedResource Remove="media\**" />
+    <None Remove="media\**" />
+    <Page Remove="media\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="add.png" />
+    <None Remove="add_48.png" />
+    <None Remove="add_64.png" />
+    <None Remove="alphabet_latin_48.png" />
+    <None Remove="broadband_48.png" />
+    <None Remove="CCW.png" />
+    <None Remove="coffee_72.png" />
+    <None Remove="CW_48.png" />
+    <None Remove="dispatch_48.png" />
+    <None Remove="door_48.png" />
+    <None Remove="Down.png" />
+    <None Remove="eraser_48.png" />
+    <None Remove="file_format_dxf.png" />
+    <None Remove="games_card_spades_48_black.png" />
+    <None Remove="handwritten_message_48_MoveDelay - Copy.png" />
+    <None Remove="handwritten_message_48_MoveDelay.png" />
+    <None Remove="handwritten_message_48_Nozzle_height.png" />
+    <None Remove="handwritten_message_48_Pressure.png" />
+    <None Remove="handwritten_message_48_StartDelay.png" />
+    <None Remove="handwritten_message_48_StopDelay.png" />
+    <None Remove="height_48.png" />
+    <None Remove="insert_72.png" />
+    <None Remove="join_spline.png" />
+    <None Remove="join_spline_black.png" />
+    <None Remove="join_spline_button.png" />
+    <None Remove="language_48.png" />
+    <None Remove="left.png" />
+    <None Remove="length_48.png" />
+    <None Remove="open.png" />
+    <None Remove="pencil_48.png" />
+    <None Remove="pencil_48_black.png" />
+    <None Remove="pencil_48_black_dpi.png" />
+    <None Remove="pencil_48_black_dpi2.png" />
+    <None Remove="pencil_48_black_dpi3.png" />
+    <None Remove="redo.png" />
+    <None Remove="repeat_48.png" />
+    <None Remove="replicate_multiple.png" />
+    <None Remove="resize_48.png" />
+    <None Remove="resize_48_black_dpi.png" />
+    <None Remove="reverse.png" />
+    <None Remove="Right.png" />
+    <None Remove="save.png" />
+    <None Remove="scalpel_48.png" />
+    <None Remove="selection_custom_shape_48.png" />
+    <None Remove="selection_rectangular_48.png" />
+    <None Remove="sequence_add.png" />
+    <None Remove="sequence_delete.png" />
+    <None Remove="skew_48.png" />
+    <None Remove="smooth.png" />
+    <None Remove="terrain.png" />
+    <None Remove="undo.png" />
+    <None Remove="undo2.png" />
+    <None Remove="up.png" />
+    <None Remove="width_48.png" />
+    <None Remove="XGrow.png" />
+    <None Remove="XShrink.png" />
+    <None Remove="YGrow.png" />
+    <None Remove="YShrink.png" />
+    <None Remove="zoom_in_48.png" />
+    <None Remove="zoom_out_48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+    <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="add.png" />
+    <Resource Include="add_48.png" />
+    <Resource Include="add_64.png" />
+    <Resource Include="alphabet_latin_48.png" />
+    <Resource Include="broadband_48.png" />
+    <Resource Include="CCW.png" />
+    <Resource Include="coffee_72.png" />
+    <Resource Include="CW_48.png" />
+    <Resource Include="dispatch_48.png" />
+    <Resource Include="door_48.png" />
+    <Resource Include="Down.png" />
+    <Resource Include="eraser_48.png" />
+    <Resource Include="file_format_dxf.png" />
+    <Resource Include="games_card_spades_48_black.png" />
+    <Resource Include="handwritten_message_48_MoveDelay - Copy.png" />
+    <Resource Include="handwritten_message_48_MoveDelay.png" />
+    <Resource Include="handwritten_message_48_Nozzle_height.png" />
+    <Resource Include="handwritten_message_48_Pressure.png" />
+    <Resource Include="handwritten_message_48_StartDelay.png" />
+    <Resource Include="handwritten_message_48_StopDelay.png" />
+    <Resource Include="height_48.png" />
+    <Resource Include="insert_72.png" />
+    <Resource Include="join_spline.png" />
+    <Resource Include="join_spline_black.png" />
+    <Resource Include="join_spline_button.png" />
+    <Resource Include="language_48.png" />
+    <Resource Include="left.png" />
+    <Resource Include="length_48.png" />
+    <Resource Include="open.png" />
+    <Resource Include="pencil_48.png" />
+    <Resource Include="pencil_48_black.png" />
+    <Resource Include="pencil_48_black_dpi.png" />
+    <Resource Include="pencil_48_black_dpi2.png" />
+    <Resource Include="pencil_48_black_dpi3.png" />
+    <Resource Include="redo.png" />
+    <Resource Include="repeat_48.png" />
+    <Resource Include="replicate_multiple.png" />
+    <Resource Include="resize_48.png" />
+    <Resource Include="resize_48_black_dpi.png" />
+    <Resource Include="reverse.png" />
+    <Resource Include="Right.png" />
+    <Resource Include="save.png" />
+    <Resource Include="scalpel_48.png" />
+    <Resource Include="selection_custom_shape_48.png" />
+    <Resource Include="selection_rectangular_48.png" />
+    <Resource Include="sequence_add.png" />
+    <Resource Include="sequence_delete.png" />
+    <Resource Include="skew_48.png" />
+    <Resource Include="smooth.png" />
+    <Resource Include="terrain.png" />
+    <Resource Include="undo.png" />
+    <Resource Include="undo2.png" />
+    <Resource Include="up.png" />
+    <Resource Include="width_48.png" />
+    <Resource Include="XGrow.png" />
+    <Resource Include="XShrink.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="YGrow.png" />
+    <Resource Include="YShrink.png" />
+    <Resource Include="zoom_in_48.png" />
+    <Resource Include="zoom_out_48.png" />
+  </ItemGroup>
+
+</Project>
